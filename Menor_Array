@@ -1,0 +1,9 @@
+array = [14, 8, 23, 5, 19, 42]
+
+menor = array[0]
+
+for n in array:
+    if n < menor:
+        menor = n
+
+print("Menor elemento:", menor)
