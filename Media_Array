@@ -1,0 +1,9 @@
+array = [4, 8, 15, 16, 23, 42]
+soma = 0
+
+for n in array:
+    soma = soma  + n
+
+media = soma / len(array)
+
+print("Média dos elementos:", media)
